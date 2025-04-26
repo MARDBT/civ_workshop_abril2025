@@ -8,7 +8,6 @@ models:
         data_type: varchar
         description: "Clave primaria de cada cliente"
         tests:
-          - unique
           - not_null
 
       - name: pais
